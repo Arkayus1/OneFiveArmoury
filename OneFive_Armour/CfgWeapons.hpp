@@ -1,3 +1,5 @@
+class CfgWeapons
+{
     class VES_M52D_Rifleman;
     class 15th_Testing_M52D: VES_M52D_Rifleman
     {
@@ -82,3 +84,4 @@ class VES_CH252D_dp;
                 "OneFive_Armour\Data\Helmets\OneFive_Armour\Data\Helmets\15th_252D_Medic_Reserves_CO.paa"
             };
         };
+};

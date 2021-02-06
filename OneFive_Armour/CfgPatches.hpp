@@ -1,4 +1,4 @@
-class cfgPatches
+class CfgPatches
 {
 	class OneFive_Armour
 	{

@@ -1,3 +1,5 @@
+class CfgVehicles
+{
 	class OPTRE_S12_SOLA_Jetpack;
 	class 15th_Bullfrog_Pack_LR: OPTRE_S12_SOLA_Jetpack
 	{
@@ -7,3 +9,4 @@
 		maximumLoad= 350;
 	
 	};
+};
