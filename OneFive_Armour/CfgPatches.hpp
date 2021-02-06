@@ -15,12 +15,22 @@ class CfgPatches
 			"15th_252D_Enlisted_Reserves_dp",
 			"15th_252D_Medic_Reserves",
 			"15th_252D_Medic_Reserves_dp",
-			//"15th_252D_Enlisted_V1",
-			//"15th_252D_Enlisted_V2",
-			//"15th_252D_Medic_V1",
-			//"15th_252D_Medic_V2",
-			//"15th_252D_NCO_V1",
-			//"15th_252D_NCO_V2"
+			"15th_252D_Enlisted_Vulcan_One",
+			"15th_252D_Enlisted_Vulcan_One_dp",
+			"15th_252D_Enlisted_Vulcan_Two",
+			"15th_252D_Enlisted_Vulcan_Two_dp",
+			"15th_252D_Medic_Vulcan_One",
+			"15th_252D_Medic_Vulcan_One_dp",
+			"15th_252D_Medic_Vulcan_Two",
+			"15th_252D_Medic_Vulcan_Two_dp",
+			"15th_252D_NCO_Vulcan_One",
+			"15th_252D_NCO_Vulcan_One_dp",
+			"15th_252D_NCO_Vulcan_Two",
+			"15th_252D_NCO_Vulcan_Two_dp",
+			"15th_Testing_M52D",
+			"15th_Enlisted_M52D",
+			"15th_Medic_M52D",
+			"15th_NCO_M52D",
 		};
 		vehicles[]=
 		{
