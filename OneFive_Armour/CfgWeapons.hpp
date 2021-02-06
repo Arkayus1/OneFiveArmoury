@@ -41,11 +41,11 @@ class VES_CH252D;
             };
         };
     };
-    class 15th_252D_Medic_Reserves: 15th_252D_Base
+    class 15th_252D_Medic_Reserves: 15th_252D_Enlisted_Reserves
     {
 		displayName="[15th] CH252D Helmet (Medic)";
-		hiddenSelectionsTextures[]={"OneFive_Armour\Data\Helmets\15th_252D_Medic_Reserves_CO.paa.paa", "V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"};
-		class ItemInfo: ItemInfo {hiddenSelectionsTextures[]={"OneFive_Armour\Data\Helmets\15th_252D_Medic_Reserves_CO.paa.paa", "V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"};};
+		hiddenSelectionsTextures[]={"OneFive_Armour\Data\Helmets\15th_252D_Medic_Reserves_CO.paa", "V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"};
+		class ItemInfo: ItemInfo {hiddenSelectionsTextures[]={"OneFive_Armour\Data\Helmets\15th_252D_Medic_Reserves_CO.paa", "V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"};};
     };
 class VES_CH252D_dp;
     class 15th_CH252D_Base_dp: VES_CH252D_dp
@@ -69,4 +69,16 @@ class VES_CH252D_dp;
             };
         };
     };
-
+    class 15th_252D_Medic_Reserves_dp: 15th_252D_Enlisted_Reserves_dp
+	  displayName="[15th] CH252D Helmet (Enlisted)";
+        hiddenSelectionsTextures[]=
+        {
+            "OneFive_Armour\Data\Helmets\OneFive_Armour\Data\Helmets\15th_252D_Medic_Reserves_CO.paa"
+        };
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelectionsTextures[]=
+            {
+                "OneFive_Armour\Data\Helmets\OneFive_Armour\Data\Helmets\15th_252D_Medic_Reserves_CO.paa"
+            };
+        };

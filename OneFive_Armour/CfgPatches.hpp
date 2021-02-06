@@ -13,7 +13,8 @@ class cfgPatches
 		{
 			"15th_252D_Enlisted_Reserves",
 			"15th_252D_Enlisted_Reserves_dp",
-			//"15th_252D_Medic_Reserves",
+			"15th_252D_Medic_Reserves",
+			"15th_252D_Medic_Reserves_dp",
 			//"15th_252D_Enlisted_V1",
 			//"15th_252D_Enlisted_V2",
 			//"15th_252D_Medic_V1",
@@ -23,9 +24,9 @@ class cfgPatches
 		};
 		vehicles[]=
 		{
-			"15th_COOL_NEW_JUMPPACK"
+			"15th_Bullfrog_Pack_LR"
 		};
 		requiredVersion=0.1;
-		requiredAddons[]={"V_FZ_Armor", "NSM_patch_end"};
+		requiredAddons[]={"V_FZ_Armor"};
 	};
 };
