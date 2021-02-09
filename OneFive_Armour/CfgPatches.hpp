@@ -31,6 +31,10 @@ class CfgPatches
 			"15th_Enlisted_M52D",
 			"15th_Medic_M52D",
 			"15th_NCO_M52D",
+			"15th_EOD_Helmet",
+			"15th_EOD_Helmet_dp",
+			"Big_15th_EOD_Helmet",
+			"Big_15th_EOD_Helmet",
 		};
 		vehicles[]=
 		{
