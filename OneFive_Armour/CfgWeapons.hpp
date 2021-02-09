@@ -3,126 +3,129 @@ class CfgWeapons
     class HeadgearItem;
 	class OPTRE_UNSC_CH252D_Helmet;
 	class 15th_EOD_Helmet: OPTRE_UNSC_CH252D_Helmet
-	{
-		author="Dook and Dutch and technically Marco too";
-		scopeArsenal=2;
-		displayName="ODST EOD Helmet";
-		model="OneFive_Armour\Data\Helmets\EOD_Helmet.p3d";
-		hiddenSelections[]=
-		{
-			"camo1",
-			"Visor"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"OneFive_Armour\Data\Helmets\EOD\15th_EOD_Helmet_CO.paa",
-			"OneFive_Armour\Data\Helmets\EOD\15th_EOD_Visor_CO.paa"
-		};
-		class ItemInfo: HeadgearItem
-		{
-			uniformModel="OneFive_Armour\Data\Helmets\EOD\EOD_Helmet\EOD_Helmet.p3d";
-			picture="\OPTRE_UNSC_Units\Army\icons\odst_recon";
-			allowedSlots[]=
-			{
-				"BACKPACK_SLOT",
-				"VEST_SLOT",
-				"HEADGEAR_SLOT"
-			};
-			modelSides[]={6};
-			hiddenSelections[]=
-			{
-				"camo1",
-				"Visor"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Face
-				{
-					armor=25;
-					hitpointName="HitFace";
-					passThrough=0.1;
-				};
-				class Head
-				{
-					armor=25;
-					hitPointName="HitHead";
-					passThrough=0.1;
-				};
-				class Neck
-				{
-					armor=20;
-					hitpointName="HitNeck";
-					passThrough=0.1;
-				};
-			};
-		};
-	};
+    {
+        author="Dook and Dutch and Marco and Soap";
+        scope=2;
+        displayName="[15th] ODST EOD Helmet";
+    optreVarietys[]={"15th_EOD_Helmet", "15th_EOD_Helmet_dp", "_broken"};
+    picture="\OPTRE_UNSC_Units\Army\icons\odst_recon";
+        model="OneFive_Armour\Data\Helmets\EOD_Helmet.p3d";
+    modelSides[]={6};
+        hiddenSelections[]=
+        {
+            "camo1",
+            "Visor"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Helmet_CO.paa",
+            "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Visor_CO.paa"
+        };
+        class ItemInfo: HeadgearItem
+        {
+            uniformModel="OneFive_Armour\Data\Helmets\EOD\EOD_Helmet.p3d";
+            
+            allowedSlots[]=
+            {
+                "BACKPACK_SLOT",
+                "VEST_SLOT",
+                "HEADGEAR_SLOT"
+            };
+            hiddenSelections[]=
+            {
+                "camo1",
+                "Visor"
+            };
+            class HitpointsProtectionInfo
+            {
+                class Face
+                {
+                    armor=25;
+                    hitpointName="HitFace";
+                    passThrough=0.1;
+                };
+                class Head
+                {
+                    armor=25;
+                    hitPointName="HitHead";
+                    passThrough=0.1;
+                };
+                class Neck
+                {
+                    armor=20;
+                    hitpointName="HitNeck";
+                    passThrough=0.1;
+                };
+            };
+        };
+    };
 	class OPTRE_UNSC_CH252D_Helmet_dp;
-	class 15th_EOD_Helmet_dp: OPTRE_UNSC_CH252D_Helmet_dp
-	{
-		author="Dook and Dutch and technically Marco too";
-		scope=0;
-		displayName="15th EOD Helmet (Depolarized)";
-		model="OneFive_Armour\Data\Helmets\EOD\EOD_Helmet_dp.p3d";
-		hiddenSelections[]=
-		{
-			"camo1",
-			"Visor"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"OneFive_Armour\Data\Helmets\EOD\15th_EOD_Helmet_CO.paa",
-			"OneFive_Armour\Data\Helmets\EOD\15th_EOD_Visor_CO.paa"
-		};
-		class ItemInfo: HeadgearItem
-		{
-			uniformModel="OneFive_Armour\Data\Helmets\EOD\EOD_Helmet_dp.p3d";
-			allowedSlots[]=
-			{
-				"BACKPACK_SLOT",
-				"VEST_SLOT",
-				"HEADGEAR_SLOT"
-			};
-			modelSides[]={6};
-			hiddenSelections[]=
-			{
-				"camo1",
-				"Visor"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"OneFive_Armour\Data\Helmets\EOD\15th_EOD_Helmet_CO.paa",
-				"OneFive_Armour\Data\Helmets\EOD\15th_EOD_Visor_CO.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Face
-				{
-					armor=25;
-					hitpointName="HitFace";
-					passThrough=0.1;
-				};
-				class Head
-				{
-					armor=25;
-					hitPointName="HitHead";
-					passThrough=0.1;
-				};
-				class Neck
-				{
-					armor=20;
-					hitpointName="HitNeck";
-					passThrough=0.1;
-				};
-			};
-		};
-	};
+	class 15th_EOD_Helmet_dp: OPTRE_UNSC_CH252D_Helmet
+    {
+        author="Dook and Dutch and technically Marco too";
+        scope=0;
+        displayName="[15th] ODST EOD Helmet (DP)";
+    optreVarietys[]={"15th_EOD_Helmet", "15th_EOD_Helmet_dp", "_broken"};
+        model="OneFive_Armour\Data\Helmets\EOD\EOD_Helmet_dp.p3d";
+        modelSides[]={6};
+        hiddenSelections[]=
+        {
+            "camo1",
+            "Visor"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Helmet_CO.paa",
+            "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Visor_CO.paa"
+        };
+        class ItemInfo: HeadgearItem
+        {
+            uniformModel="OneFive_Armour\Data\Helmets\EOD\EOD_Helmet_dp.p3d";
+            allowedSlots[]=
+            {
+                "BACKPACK_SLOT",
+                "VEST_SLOT",
+                "HEADGEAR_SLOT"
+            };
+            hiddenSelections[]=
+            {
+                "camo1",
+                "Visor"
+            };
+            hiddenSelectionsTextures[]=
+            {
+                "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Helmet_CO.paa",
+                "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Visor_CO.paa"
+            };
+            class HitpointsProtectionInfo
+            {
+                class Face
+                {
+                    armor=25;
+                    hitpointName="HitFace";
+                    passThrough=0.1;
+                };
+                class Head
+                {
+                    armor=25;
+                    hitPointName="HitHead";
+                    passThrough=0.1;
+                };
+                class Neck
+                {
+                    armor=20;
+                    hitpointName="HitNeck";
+                    passThrough=0.1;
+                };
+            };
+        };
+    };
 
 	class 15th_EOD_Helmet_Big: OPTRE_UNSC_CH252D_Helmet
 	{
 		author="Dook and Dutch and technically Marco too";
 		scopeArsenal=2;
-		displayName="15th EOD Helmet (Beeg)";
+		displayName="[15th] EOD Helmet (Beeg)";
 		model="OneFive_Armour\Data\Helmets\EOD\Big_EOD_Helmet.p3d";
 		hiddenSelections[]=
 		{
