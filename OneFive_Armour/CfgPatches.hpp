@@ -1,4 +1,4 @@
-class cfgPatches
+class CfgPatches
 {
 	class OneFive_Armour
 	{
@@ -13,19 +13,34 @@ class cfgPatches
 		{
 			"15th_252D_Enlisted_Reserves",
 			"15th_252D_Enlisted_Reserves_dp",
-			//"15th_252D_Medic_Reserves",
-			//"15th_252D_Enlisted_V1",
-			//"15th_252D_Enlisted_V2",
-			//"15th_252D_Medic_V1",
-			//"15th_252D_Medic_V2",
-			//"15th_252D_NCO_V1",
-			//"15th_252D_NCO_V2"
+			"15th_252D_Medic_Reserves",
+			"15th_252D_Medic_Reserves_dp",
+			"15th_252D_Enlisted_Vulcan_One",
+			"15th_252D_Enlisted_Vulcan_One_dp",
+			"15th_252D_Enlisted_Vulcan_Two",
+			"15th_252D_Enlisted_Vulcan_Two_dp",
+			"15th_252D_Medic_Vulcan_One",
+			"15th_252D_Medic_Vulcan_One_dp",
+			"15th_252D_Medic_Vulcan_Two",
+			"15th_252D_Medic_Vulcan_Two_dp",
+			"15th_252D_NCO_Vulcan_One",
+			"15th_252D_NCO_Vulcan_One_dp",
+			"15th_252D_NCO_Vulcan_Two",
+			"15th_252D_NCO_Vulcan_Two_dp",
+			"15th_Testing_M52D",
+			"15th_Enlisted_M52D",
+			"15th_Medic_M52D",
+			"15th_NCO_M52D",
+			"15th_EOD_Helmet",
+			"15th_EOD_Helmet_dp",
+			"Big_15th_EOD_Helmet",
+			"Big_15th_EOD_Helmet",
 		};
 		vehicles[]=
 		{
-			"15th_COOL_NEW_JUMPPACK"
+			"15th_Bullfrog_Pack_LR"
 		};
 		requiredVersion=0.1;
-		requiredAddons[]={"V_FZ_Armor", "NSM_patch_end"};
+		requiredAddons[]={"V_FZ_Armor"};
 	};
 };

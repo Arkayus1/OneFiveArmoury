@@ -1,11 +1,14 @@
-class NSM_neutral_XD_1_backpack;    
+class CfgVehicles
+{
+
+	class NSM_neutral_XD_1_backpack;    
     class 15th_COOL_NEW_JUMPPACK: NSM_neutral_XD_1_backpack
     {
         scope = 2;
 
         // wowe daz me 😊
-        author = "NSM also duke changed some classnames";
-        displayname = "[15th] Bullfrog Jumppack"; //Name this to whatever you want
+        author = "NSM and Duke";
+        displayname = "[15th] Bullfrog Command Pack"; //Name this to whatever you want
         NSM_jumppack_is_jumppack = 1; // 1 means yes, 0 means no.
 
         // In seconds, I would not reccomend making 
@@ -51,8 +54,9 @@ class NSM_neutral_XD_1_backpack;
 
         //Obviously do watever u want here
         model = "OPTRE_Weapons\Backpacks\jetpack.p3d";
-        maximumload = 500;
+        maximumload = 350;
         hiddenSelections[] = {"camo1"};
-        hiddenSelectionsTextures[] = {"OPTRE_Weapons\Backpacks\data\jetpack_co.paa"};
-        picture = "\NSM_Objects\icon.paa";
+        hiddenSelectionsTextures[] = {"OPTRE_Weapons\Backpacks\data\jetpack_co"};
+        picture = "NSM_Objects\icon.paa";
     };
+};
