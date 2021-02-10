@@ -19,7 +19,7 @@ class CfgWeapons
         hiddenSelectionsTextures[]=
         {
             "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Helmet_CO.paa",
-            "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Visor_CO.paa"
+            "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Visor_CO_Purple.paa"
         };
         class ItemInfo: HeadgearItem
         {
@@ -76,7 +76,7 @@ class CfgWeapons
         hiddenSelectionsTextures[]=
         {
             "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Helmet_CO.paa",
-            "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Visor_CO.paa"
+            "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Visor_CO_Purple.paa"
         };
         class ItemInfo: HeadgearItem
         {
@@ -95,7 +95,7 @@ class CfgWeapons
             hiddenSelectionsTextures[]=
             {
                 "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Helmet_CO.paa",
-                "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Visor_CO.paa"
+                "OneFive_Armour\Data\Helmets\EOD\15th_EOD_Visor_CO_Purple.paa"
             };
             class HitpointsProtectionInfo
             {
