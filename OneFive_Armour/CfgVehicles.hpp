@@ -55,7 +55,7 @@ class CfgVehicles
 
         //Obviously do watever u want here
         model = "OPTRE_Weapons\Backpacks\jetpack.p3d";
-        maximumload = 200;
+        maximumload = 250;
         hiddenSelections[] = {"camo1"};
         hiddenSelectionsTextures[] = {"OPTRE_Weapons\Backpacks\data\jetpack_co"};
         picture = "NSM_Objects\icon.paa";
