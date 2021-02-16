@@ -27,18 +27,37 @@ class CfgPatches
 			"15th_252D_NCO_Vulcan_One_dp",
 			"15th_252D_NCO_Vulcan_Two",
 			"15th_252D_NCO_Vulcan_Two_dp",
-			"15th_Testing_M52D",
-			"15th_Enlisted_M52D",
-			"15th_Medic_M52D",
-			"15th_NCO_M52D",
 			"15th_EOD_Helmet",
 			"15th_EOD_Helmet_dp",
-			"Big_15th_EOD_Helmet",
-			"Big_15th_EOD_Helmet",
+			"15th_EOD_Helmet_Big",
+			"15th_EOD_Helmet_Big_dp",
+			"15th_252D_Custom_Buddy",
+			"15th_252D_Custom_Buddy_dp",
+			"15th_252D_Custom_Jon",
+			"15th_252D_Custom_Jon_dp",
+			"15th_252D_Custom_Joppa",
+			"15th_252D_Custom_Joppa_dp",
+			"15th_252D_Custom_Muzthag",
+			"15th_252D_Custom_Muzthag_dp",
+			"15th_252D_Custom_Noble",
+			"15th_252D_Custom_Noble_dp",
+			"15th_252D_Rainbow",
+			"15th_252D_Rainbow_dp",
+			"15th_Testing_M52D",
+			"15th_Enlisted_M52D",
+			"15th_Testing_M52D_Demolitions",
+			"15th_Enlisted_M52D_Demolitions",
+			"15th_NCO_M52D_Demolitions",
+			"15th_Testing_M52D_Sniper",
+			"15th_Enlisted_M52D_Sniper",
+			"15th_NCO_M52D_Sniper",
+			"15th_Medic_M52D",
+			"15th_NCO_M52D",
 		};
 		vehicles[]=
 		{
-			"15th_Bullfrog_Pack_LR"
+			"15th_COOL_NEW_JUMPPACK_LR",
+			"15th_COOL_NEW_JUMPPACK"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]={"V_FZ_Armor"};

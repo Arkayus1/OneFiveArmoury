@@ -2,7 +2,7 @@ class CfgVehicles
 {
 
 	class NSM_neutral_XD_1_backpack;    
-    class 15th_COOL_NEW_JUMPPACK: NSM_neutral_XD_1_backpack
+    class 15th_COOL_NEW_JUMPPACK_LR: NSM_neutral_XD_1_backpack
     {
         scope = 2;
 
@@ -13,11 +13,11 @@ class CfgVehicles
 
         // In seconds, I would not reccomend making 
         // this less then 1 just to account for user lag/network lag.
-        NSM_jumppack_spam_delay = 1;
+        NSM_jumppack_spam_delay = 3;
 
         // How much energy the pack has, think of like fuel.
-        NSM_jumppack_energy_capacity = 200; 
-        NSM_jumppack_recharge = 5; // How much energy per second is regenerated.
+        NSM_jumppack_energy_capacity = 25; 
+        NSM_jumppack_recharge = 1; // How much energy per second is regenerated.
 
 
         // This is a little bit ugly
@@ -27,18 +27,19 @@ class CfgVehicles
         // but thats a script thing not
         // config, RIP cpp :)
         NSM_jumppack_jump_types[] = {
-            {
-                "Forward Jump",// Name of jump
+            {"Directional Jump",{10,6,5,0,1,0}},
+		{
+                "Overcharge",// Name of jump
                 {
-                    12,     //forward velo(0)
+                    17,     //forward velo(0)
                     20,     //verticle velo(1)
-                    50,     //cost(2)
+                    25,     //cost(2)
                     0,      //angle(3)
                     0,      //directional(4)(no=0,yes=1)?
                     0       //can prone jump(5)(no=0,yes=1)?
                 }
-            },
-            {"Short Jump",{25,7,20,0,1,1}}
+            }
+            
         };
 
         // I wouldnt reccomend changing these below.
@@ -54,9 +55,21 @@ class CfgVehicles
 
         //Obviously do watever u want here
         model = "OPTRE_Weapons\Backpacks\jetpack.p3d";
-        maximumload = 350;
+        maximumload = 200;
         hiddenSelections[] = {"camo1"};
         hiddenSelectionsTextures[] = {"OPTRE_Weapons\Backpacks\data\jetpack_co"};
         picture = "NSM_Objects\icon.paa";
+	  
+	tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+	tf_hasLRradio = 1;
+	tf_encryptionCode = "tf_west_radio_code";
+	tf_dialog = "rt1523g_radio_dialog";
+	tf_subtype = "digital_lr";
     };
+    class 15th_COOL_NEW_JUMPPACK: 15th_COOL_NEW_JUMPPACK_LR
+    {
+	    displayname = "[15th] Bullfrog Pack";
+	    tf_hasLRradio = 0;
+    };
+    
 };
