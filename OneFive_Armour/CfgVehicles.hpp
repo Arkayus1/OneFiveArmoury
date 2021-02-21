@@ -13,7 +13,7 @@ class CfgVehicles
 
         // In seconds, I would not reccomend making 
         // this less then 1 just to account for user lag/network lag.
-        NSM_jumppack_spam_delay = 3;
+        NSM_jumppack_spam_delay = 1;
 
         // How much energy the pack has, think of like fuel.
         NSM_jumppack_energy_capacity = 25; 
